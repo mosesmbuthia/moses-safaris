@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+ul, ol {
+  list-style: none;
+}
