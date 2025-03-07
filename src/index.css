@@ -1,3 +1,13 @@
+:root {
+  --color-primary:rgb(54, 116, 181);
+  --color-sub-primary:rgb(87, 143, 202);
+  --color-sky-blue:rgb(161, 227, 249);
+  --color-mint:rgb(209, 248, 239);
+  --color-teal:rgb(124, 245, 255);
+  --color-white:rgb(247, 247, 247);
+  --color-black:rgb(0, 0, 0);
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -10,6 +20,8 @@ html {
 
 body {
 font-size: 1.6rem;
+color: var(--color-black);
+font-family: "Roboto", sans-serif;
 }
 
 a {
