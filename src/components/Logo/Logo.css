@@ -1,0 +1,15 @@
+.logo {
+    display: flex;
+    align-items: center;
+    
+    gap: 1.5rem;
+}
+
+.logo img {
+    width: 9rem;
+    border-radius: 45%;
+}
+
+.logo h2 {
+    text-transform: uppercase;
+}

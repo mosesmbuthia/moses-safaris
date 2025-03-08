@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-navigation-list {
+    display: flex;
+    gap: 4rem;
+}
+
+.header-navigation-list li a {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: black;
+}
