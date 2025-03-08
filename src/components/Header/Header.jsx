@@ -20,7 +20,7 @@ function HeaderNav() {
                 <li><a href="">Contacts</a></li>
             </ol>
             </nav>
-            <a href="#">book now</a>
+            <a href="#" className="header-cta-btn">book now</a>
            
         </div>
     )
