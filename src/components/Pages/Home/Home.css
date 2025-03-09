@@ -1,8 +1,11 @@
 .hero-main {
-    background-image: linear-gradient(rgba(161, 227, 249, .5),rgba(54, 116, 181, .6)),url(../../../assets/background-home.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)),url(../../../assets/background-home.jpg);
     height: 100vh;
+    justify-content: center;
+    align-content: center;
     margin: 0 auto;
     background-position: center;
+    
 }
 
 
@@ -10,17 +13,38 @@
 .main-line {
     text-transform: uppercase;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 800;
     padding-top: 3rem;
-    color: white;
-    margin-bottom: 6rem;
+    color: rgb(253,155,51);
+    margin-bottom: 2rem;
+    
     
 }
 
 .sub-line {
     text-align: center;
-    color: brown;
+    color: white;
+    text-transform: uppercase;
     font-size: 4rem;
     font-weight: 600;
+}
+
+.hero-about {
+    text-align: center;
+    margin: 0 auto;
+    padding: 4rem;
+    background-color: rgb(209, 248, 239);
+}
+
+.about-main-tag {
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: rgb(253,155,51);
+    margin-bottom: 2rem;
+}
+
+.about-content {
+    font-size: 2rem;
+    font-weight: 500;
 }
