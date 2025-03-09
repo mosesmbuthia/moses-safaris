@@ -10,8 +10,6 @@ function App() {
   return (
     <React.Fragment>
       <Header/>
-      
-
       <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/Destinations" element={<Destinations/>}/>

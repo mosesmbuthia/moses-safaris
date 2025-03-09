@@ -1,5 +1,5 @@
 .hero-main {
-    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)),url(../../../assets/background-home.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)),url(../../../assets/Images/background-home.jpg);
     height: 100vh;
     justify-content: center;
     align-content: center;
@@ -47,4 +47,84 @@
 .about-content {
     font-size: 2rem;
     font-weight: 500;
+
+}
+
+/* featured destinations */
+
+/* .featured-destinations {
+    display: flex;
+} */
+
+.featured-tagline {
+    text-align: center;
+    padding: 3rem;
+    color: rgb(253,155,51);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.destination-card {
+    width: 35rem;
+    /* border: solid red; */
+    background-color: rgb(209, 248, 239);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    margin: 2rem auto;
+}
+
+.destination-card:hover {
+    transform: scale(1.05);
+}
+
+.destination-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-text {
+    padding: 15px;
+}
+
+.card-text h3 {
+    margin: 1rem 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.card-text p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.price {
+    display: block;
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    background: white;
+    color: black;
+    border: none;
+    margin-bottom: 2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5rem;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: rgb(253,155,51);
+    color: white;
 }

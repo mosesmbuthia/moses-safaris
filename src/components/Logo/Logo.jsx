@@ -1,5 +1,5 @@
 import "./Logo.css";
-import logoImg from '../../assets/logo-main.png';
+import logoImg from '../../assets/Images/logo-main.png';
 function Logo() {
   return (
     <div className="logo">
