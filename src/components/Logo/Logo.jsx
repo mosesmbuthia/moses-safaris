@@ -4,7 +4,7 @@ function Logo() {
   return (
     <div className="logo">
    <img src={logoImg} alt="our logo" />
-   <h2>moses safaris</h2>
+   <h2>mbuthia safaris</h2>
     </div>
   )
 }

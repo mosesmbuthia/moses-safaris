@@ -52,9 +52,13 @@
 
 /* featured destinations */
 
-/* .featured-destinations {
+.destination-cards{
     display: flex;
-} */
+    border: solid red;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
 
 .featured-tagline {
     text-align: center;
