@@ -1,27 +1,35 @@
 import "./Header.css";
 import Logo from "../Logo/Logo";
+import {NavLink} from "react-router-dom"
 export default function Header() {
-    return(
+    return (
         <header className="header">
-            <HeaderNav/>
+            <HeaderNav />
         </header>
     )
 }
 
 function HeaderNav() {
-    return(
+    return (
         <div className="navbar">
-            <Logo/>
+            <Logo />
             <nav className="header-navigation">
-            <ol className="header-navigation-list">
-                <li><a href="">Home</a></li>
-                <li><a href="">Destinations</a></li>
-                <li><a href="">Trips</a></li>
-                <li><a href="">Contacts</a></li>
-            </ol>
+                <ol className="header-navigation-list">  
+                    <NavigationLink to="/" label="home" />
+                    <NavigationLink to="/destinations" label="destinations" />
+                    <NavigationLink to="/trips" label="trips" />
+                    <NavigationLink to="/contacts" label="contacts" />
+                </ol>
             </nav>
             <a href="#" className="header-cta-btn">book now</a>
-           
+
         </div>
+    )
+}
+function NavigationLink( {to, label} ) {
+    return(
+        <li>
+            <NavLink to={to}>{label}</NavLink>
+        </li>
     )
 }
