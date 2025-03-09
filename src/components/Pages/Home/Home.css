@@ -1,0 +1,26 @@
+.hero-main {
+    background-image: linear-gradient(rgba(161, 227, 249, .5),rgba(54, 116, 181, .6)),url(../../../assets/background-home.jpg);
+    height: 100vh;
+    margin: 0 auto;
+    background-position: center;
+}
+
+
+
+.main-line {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    padding-top: 3rem;
+    color: white;
+    margin-bottom: 6rem;
+    
+}
+
+.sub-line {
+    text-align: center;
+    color: brown;
+    font-size: 4rem;
+    font-weight: 600;
+}
