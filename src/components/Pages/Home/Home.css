@@ -54,7 +54,8 @@
 
 .destination-cards{
     display: flex;
-    border: solid red;
+    margin-right: 2rem auto;
+    
     flex-direction: row;
     flex-wrap: wrap;
     gap: 4rem;
@@ -70,14 +71,14 @@
 
 .destination-card {
     width: 35rem;
-    /* border: solid red; */
+    
     background-color: rgb(209, 248, 239);
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     transition: transform 0.3s ease-in-out;
-    margin: 2rem auto;
+    
 }
 
 .destination-card:hover {

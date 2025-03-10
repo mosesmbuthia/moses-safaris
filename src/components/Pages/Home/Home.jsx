@@ -4,6 +4,7 @@ import lakeNakuru from "../../../assets/Images/lake nakuru.jpg";
 import tsavoPark from "../../../assets/Images/tsavo.jpg";
 import nairobiPark from "../../../assets/Images/nairobi.jpg";
 import coastalKenya from "../../../assets/Images/coastal kenya.jpg";
+import Testimonials from "../../Testimonials/Testimonials";
 
 import "./Home.css"
 
@@ -13,6 +14,7 @@ function Home() {
       <Hero/>
       <About/>
       <Features/>
+      <Testimonials/>
     </div>
   )
 }
