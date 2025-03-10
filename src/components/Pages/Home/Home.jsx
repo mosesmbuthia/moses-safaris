@@ -5,8 +5,9 @@ import tsavoPark from "../../../assets/Images/tsavo.jpg";
 import nairobiPark from "../../../assets/Images/nairobi.jpg";
 import coastalKenya from "../../../assets/Images/coastal kenya.jpg";
 import Testimonials from "../../Testimonials/Testimonials";
-
-import "./Home.css"
+import Newsletter from "../../Newsletter/Newsletter";
+import Footer from "../../Footer/Footer";
+import "./Home.css";
 
 function Home() {
   return (
@@ -15,6 +16,8 @@ function Home() {
       <About/>
       <Features/>
       <Testimonials/>
+      <Newsletter/>
+      <Footer/>
     </div>
   )
 }
