@@ -26,7 +26,13 @@ function Destinations() {
           <img src={dianiImg} alt="Diani Beach" className="destination-image" />
           <div className="destination-details">
             <h2 className="destination-name">Diani Beach</h2>
-            <p className="destination-description">Relax on Kenya's pristine white sandy beaches.</p>
+            
+            <p className="destination-description">Relax on Kenya's pristine white sandy beaches and enjoy these activities.</p>
+            <ol>
+              <li>Dolphin watch trips</li>
+              <li>Island excursions</li>
+              <li>Beach fishing</li>
+            </ol>
             <p className="destination-price">Group Price: <span>$1800</span></p>
             <p className="destination-price">Solo Price: <span>$450</span></p>
             <a href="#" className="details-button">View Details</a>

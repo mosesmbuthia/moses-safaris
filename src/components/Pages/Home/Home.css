@@ -53,7 +53,7 @@
 
 /* featured destinations */
 
-.destination-cards{
+.destination-cards-home{
     display: flex;
     margin-right: 2rem auto;
     
@@ -70,7 +70,7 @@
     font-weight: 500;
 }
 
-.destination-card {
+.destination-card-home {
     width: 35rem;
     
     background-color: rgb(209, 248, 239);
@@ -82,11 +82,11 @@
     
 }
 
-.destination-card:hover {
+.destination-card-home:hover {
     transform: scale(1.05);
 }
 
-.destination-card img {
+.destination-card-home img {
     width: 100%;
     height: 180px;
     object-fit: cover;

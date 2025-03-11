@@ -44,13 +44,13 @@ function About() {
 
 function Features() {
     return(
-        <div className="featured-destinations">
+        <div className="featured-destinations-home">
         <div className="featured-tagline"><h2>Explore Our Top Destinations</h2></div>
-        <div className="destination-cards">
-        <div className="destination-card">
+        <div className="destination-cards-home">
+        <div className="destination-card-home">
           <img src={mountKenya} alt="Mount Kenya"
           />
-          <div className="card-content">
+          <div className="card-content-home">
             <h3>Mount Kenya</h3>
             <p>Enjoy a breathtaking climb to Africa's second-highest peak.</p>
             <span className="price">$350</span>
@@ -58,10 +58,10 @@ function Features() {
           </div>
         </div>
 
-        <div className="destination-card">
+        <div className="destination-card-home">
           <img src={mountRuwenzori} alt="Mount Ruwenzori"
           />
-          <div className="card-content">
+          <div className="card-content-home">
             <h3>Mount Ruwenzori</h3>
             <p>Enjoy a breathtaking climb to Africa's second-highest peak.</p>
             <span className="price">$500</span>
@@ -69,10 +69,10 @@ function Features() {
           </div>
         </div>
 
-        <div className="destination-card">
+        <div className="destination-card-home">
           <img src={lakeNakuru} alt="lake nakuru"
           />
-          <div className="card-content">
+          <div className="card-content-home">
             <h3>Lake Nakuru</h3>
             <p>Visit the home of the pink flamingos and stunning landscapes.</p>
             <span className="price">$200</span>
@@ -80,10 +80,10 @@ function Features() {
           </div>
         </div>
 
-        <div className="destination-card">
+        <div className="destination-card-home">
           <img src={tsavoPark} alt="tsavo national park"
           />
-          <div className="card-content">
+          <div className="card-content-home">
             <h3>Tsavo National Park</h3>
             <p>Discover the vast, untamed wilderness where african giants roam.</p>
             <span className="price">$350</span>
@@ -91,10 +91,10 @@ function Features() {
           </div>
         </div>
 
-        <div className="destination-card">
+        <div className="destination-card-home">
           <img src={nairobiPark} alt="nairobi national park"
           />
-          <div className="card-content">
+          <div className="card-content-home">
             <h3>Nairobi National Park</h3>
             <p>Experience the wolrd's only wildlife capital where the city skyline meets the wild savannah.</p>
             <span className="price">$600</span>
@@ -102,10 +102,10 @@ function Features() {
           </div>
         </div>
 
-        <div className="destination-card">
+        <div className="destination-card-home">
           <img src={coastalKenya} alt="coastal kenya"
           />
-          <div className="card-content">
+          <div className="card-content-home">
             <h3>Coastal Kenya</h3>
             <p>Where the Swahili spirit meets the sapphire sea, a symphony of sea, sand, and Swahili charm.</p>
             <span className="price">$550</span>
