@@ -1,15 +1,21 @@
 .navbar {
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: rgb(209, 248, 239);
+    background-color: black;
+    z-index: 1000;
 }
 
 @media screen and (max-width: 50em) {
     .navbar {
     flex-direction: column;
     gap: 2rem;
+    padding: 1.5rem 2remS;
     }
     
 }
@@ -29,7 +35,7 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.4rem;
-    color: black;
+    color: white;
 }
 
 .header-navigation-list li a.active {
@@ -39,7 +45,7 @@
 
 .header-cta-btn {
     padding: 1rem 2rem;
-    background-color: rgb(54, 116, 181);
+    background-color: rgb(253, 155, 51);
     color: white;
     border-radius: 5px;
     font-weight: 700;
