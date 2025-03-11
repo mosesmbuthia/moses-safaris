@@ -1,7 +1,7 @@
 import "./Header.css";
 import Logo from "../Logo/Logo";
 // import Logo from "/src/assets/Images/logo-main.png"; 
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
     return (
@@ -14,9 +14,9 @@ export default function Header() {
 function HeaderNav() {
     return (
         <div className="navbar">
-           <Logo/> {/* <img src={Logo} alt="Company Logo" className="logo" /> */}
+            <Logo /> {/* <img src={Logo} alt="Company Logo" className="logo" /> */}
             <nav className="header-navigation">
-                <ol className="header-navigation-list">  
+                <ol className="header-navigation-list">
                     <NavigationLink to="/" label="home" />
                     <NavigationLink to="/destinations" label="destinations" />
                     <NavigationLink to="/trips" label="trips" />
@@ -28,8 +28,8 @@ function HeaderNav() {
         </div>
     )
 }
-function NavigationLink( {to, label} ) {
-    return(
+function NavigationLink({ to, label }) {
+    return (
         <li>
             <NavLink to={to}>{label}</NavLink>
         </li>
