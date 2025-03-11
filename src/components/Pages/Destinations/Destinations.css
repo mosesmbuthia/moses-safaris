@@ -3,6 +3,7 @@
 .destinations-container {
     text-align: center;
     padding: 2rem;
+    
    
   }
   
@@ -19,6 +20,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     padding: 1rem;
+    margin-left: 2rem;
     
   }
   
