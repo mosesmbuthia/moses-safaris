@@ -32,6 +32,11 @@
     color: black;
 }
 
+.header-navigation-list li a.active {
+    
+    color: rgb(253, 155, 51);
+}
+
 .header-cta-btn {
     padding: 1rem 2rem;
     background-color: rgb(54, 116, 181);

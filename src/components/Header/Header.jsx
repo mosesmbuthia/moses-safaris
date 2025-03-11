@@ -31,7 +31,11 @@ function HeaderNav() {
 function NavigationLink({ to, label }) {
     return (
         <li>
-            <NavLink to={to}>{label}</NavLink>
+            <NavLink to={to}
+            className={({isActive }) => isActive ? "active" : ""}
+            >
+                {label}
+                </NavLink>
         </li>
     )
 }

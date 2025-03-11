@@ -77,11 +77,16 @@ h1 {
     padding: 1rem;
 }
 
+.map-container {
+    margin-bottom: 2rem
+}
+
 .map-container h2 {
     text-align: center;
     margin-bottom: 2rem;
     color: rgb(253, 155, 51);
     text-transform: uppercase;
     font-weight: 600;
+    ;
 
 }
