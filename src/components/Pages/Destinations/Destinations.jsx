@@ -7,6 +7,11 @@ import lamuImg from "../../../assets/Images/lamu.jpg";
 import nakuruImg from "../../../assets/Images/nakuru.jpg";
 import tsavoImg from "../../../assets/Images/tsavo-park.jpg";
 function Destinations() {
+  const toggleReadMore = (e) => {
+    const content = e.target.previousElementSibling;
+    content.classList.toggle("expanded");
+    e.target.textContent = content.classList.contains("expanded") ? "Read Less ▲" : "Read More ▼";
+  };
   return (
     <div className='destinations-container'>
       <h1 className="title">Top Destinations in Kenya</h1>
