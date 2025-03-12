@@ -58,7 +58,7 @@ const Destinations = () => {
             <h2 className="destination-name">Amboseli National Park</h2>
             <p className="destination-description">With Mount Kilimanjaro towering in the background, Amboseli National Park offers a surreal safari experience like no other. Known as the land of giants, this park is home to large herds of elephants, gracefully roaming the open plains against Africa’s highest peak.
               <span className='hidden-text'>
-                The diverse ecosystem also supports lions, cheetahs, giraffes, and over 400 bird species. Sunrises and sunsets paint the sky in golden hues, making every game drive a photographer’s dream. Beyond wildlife, visiting the local Maasai communities provides an enriching experience of their centuries-old traditions and warrior culture.
+                The diverse ecosystem also supports Lions, Cheetahs, Giraffes, and over 400 bird species. Sunrises and sunsets paint the sky in golden hues, making every game drive a photographer’s dream. Beyond wildlife, visiting the local Maasai communities provides an enriching experience of their centuries-old traditions and warrior culture.
               </span>
             </p>
             <h3 className="read-more-button" onClick={toggleReadMore}>Read More ▼</h3>
@@ -99,6 +99,7 @@ const Destinations = () => {
             <a href="#" className="details-button">Book now</a>
           </div>
         </div>
+
 
         <div className="destination-card">
           <img src={tsavoImg} alt="Tsavo National Park" className="destination-image" />
