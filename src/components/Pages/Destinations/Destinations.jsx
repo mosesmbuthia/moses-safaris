@@ -1,5 +1,11 @@
 import React from 'react'
 import "./Destinations.css"
+import maasaiMara from "../../../assets/Images/maasai-mara.jpg";
+import dianiImg from "../../../assets/Images/diani.jpg";
+import amboseliImg from "../../../assets/Images/amboseli.jpg";
+import lamuImg from "../../../assets/Images/lamu.jpg";
+import nakuruImg from "../../../assets/Images/nakuru.jpg";
+import tsavoImg from "../../../assets/Images/tsavo-park.jpg";
 function Destinations() {
   return (
     <div className='destinations-container'>
