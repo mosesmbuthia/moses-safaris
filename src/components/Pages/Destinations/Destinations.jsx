@@ -1,19 +1,6 @@
 import React from 'react'
-import maasaiMara from "../../../assets/Images/maasai-mara.jpg"
-import dianiImg from "../../../assets/Images/diani.jpg"
-import amboseliImg from "../../../assets/Images/amboseli.jpg"
-import lamuImg from "../../../assets/Images/lamu.jpg"
-import nakuruImg from "../../../assets/Images/nakuru-park.jpg"
-import tsavoImg from "../../../assets/Images/tsavo-park.jpg"
 import "./Destinations.css"
-
-const Destinations = () => {
-  const toggleReadMore = (e) => {
-    const content = e.target.previousElementSibling;
-    content.classList.toggle("expanded");
-    e.target.textContent = content.classList.contains("expanded") ? "Read Less ▲" : "Read More ▼";
-  };
-
+function Destinations() {
   return (
     <div className='destinations-container'>
       <h1 className="title">Top Destinations in Kenya</h1>
@@ -122,3 +109,4 @@ const Destinations = () => {
 }
 
 export default Destinations
+

@@ -62,6 +62,7 @@
     gap: 4rem;
 }
 
+
 .featured-tagline {
     text-align: center;
     padding: 3rem;
@@ -76,6 +77,7 @@
     background-color: rgb(209, 248, 239);
     border-radius: 10px;
     overflow: hidden;
+    
     align-items: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
